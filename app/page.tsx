@@ -39,7 +39,13 @@ const Page: NextPage = () => {
             ref={recaptchaRef}
           />
         </div>
-        <Image className="ml-auto w-[300px] h-[398px]" alt="robot" src="/omocha_robot.png" width={476} height={632} />
+        <Image
+          className="ml-auto w-[300px] h-[398px]"
+          alt="robot"
+          src="/omocha_robot.png"
+          width={476}
+          height={632}
+        />
       </div>
     </div>
   );
