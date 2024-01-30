@@ -31,7 +31,7 @@ const Page: NextPage = () => {
         <div>
           <h1 className="font-bold text-4xl">Test captcha</h1>
           <p className="text-xl">
-            You're {verified ? "verified" : "not verfied"}
+            You are {verified ? "verified" : "not verfied"}
           </p>
           <ReCaptcha
             sitekey={process.env.NEXT_PUBLIC_SITE_KEY as string}
