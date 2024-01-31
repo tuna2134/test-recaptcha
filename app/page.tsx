@@ -27,7 +27,7 @@ const Page: NextPage = () => {
 
   return (
     <div className="h-screen flex items-center">
-      <div className="w-full max-w-4xl px-6 mx-auto h-64 flex ml-auto">
+      <div className="w-full max-w-4xl px-6 mx-auto h-64 flex ml-auto items-center">
         <div>
           <h1 className="font-bold text-4xl">Test captcha</h1>
           <p className="text-xl">
@@ -40,7 +40,7 @@ const Page: NextPage = () => {
           />
         </div>
         <Image
-          className="ml-auto w-[300px] h-[398px]"
+          className="ml-auto w-[300px] h-[398px] flex items-center"
           alt="robot"
           src="/omocha_robot.png"
           width={476}
